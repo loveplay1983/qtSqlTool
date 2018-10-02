@@ -4,8 +4,8 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
-
+QT       += core gui\
+    sql
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = simple_sql_tool
@@ -32,5 +32,3 @@ FORMS    += widget.ui
 
 DISTFILES += \
     references.md
-
-QT =+ sql

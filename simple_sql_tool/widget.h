@@ -7,6 +7,7 @@
 #include <QtSql/QSqlDatabase>
 #include <QDebug>
 #include <QMessageBox>
+#include <QString>
 
 
 namespace Ui {

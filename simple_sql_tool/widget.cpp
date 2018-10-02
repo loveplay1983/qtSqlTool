@@ -17,6 +17,8 @@ Widget::~Widget()
 Widget::OpenDatabase()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QODBC");
+    qDebug() << "is ODBC available?" << db.isValid();
+    QString dsn = QString::fromLocal8Bit("sqlServer2008r2");
 
-    sqlServer2008r2
+
 }
